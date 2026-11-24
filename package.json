@@ -18,7 +18,8 @@
     "host.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "docs/",
+    "docs/DETAIL.zh.md",
+    "docs/DETAIL.en.md",
     "examples/",
     "README.en.md",
     "CHANGELOG.md"

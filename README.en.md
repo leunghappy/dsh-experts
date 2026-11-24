@@ -49,7 +49,7 @@ npm test
 npm pack --pack-destination dist
 ```
 
-The `prepare` script builds `dist/client.js` from source. See the [publishing guide](docs/PUBLISHING.md#english) for GitHub setup and the community catalog submission template.
+The `prepare` script builds `dist/client.js` from source.
 
 ## License
 

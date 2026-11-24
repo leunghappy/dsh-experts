@@ -51,7 +51,7 @@ npm test
 npm pack --pack-destination dist
 ```
 
-`prepare` 从源码生成 `dist/client.js`。完整的仓库提交步骤、社区收录 YAML 和安装验收说明见[发布指南](docs/PUBLISHING.md)。
+`prepare` 从源码生成 `dist/client.js`。
 
 ## 开源协议
 
