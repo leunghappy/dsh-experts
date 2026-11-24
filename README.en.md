@@ -21,14 +21,14 @@ Experts is an independent community plugin for DeepSeek Harness Desktop. It list
 
 | Source | Steps |
 | --- | --- |
-| GitHub Releases | Download the prebuilt `.tgz` from Releases and add it in **Plugins**. |
+| GitHub Releases | Download [`dsh-experts-0.3.0.tgz`](https://github.com/leunghappy/dsh-experts/releases/tag/v0.3.0) and add it in **Plugins**. The same bundle serves DSH Desktop on Windows and macOS. |
 | Community dsh-market | After the catalog lists the plugin, search for `dsh-experts` or **Experts** and confirm the source and compatible version. |
 | DSH Discover | Enable **Custom plugin indexes**, add the publisher's HTTPS index URL, then search and install. |
 
 You can also install a downloaded package from the terminal. Replace `desktop` with your DSH profile name.
 
 ```sh
-dsh plugin --profile desktop add ./dsh-experts.tgz
+dsh plugin --profile desktop add "./dsh-experts-0.3.0.tgz"
 ```
 
 ## Use and configuration

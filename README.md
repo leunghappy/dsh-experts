@@ -21,14 +21,14 @@
 
 | 来源 | 操作 |
 | --- | --- |
-| GitHub Releases | 从仓库的 Releases 下载预构建的 `.tgz`，在 DSH「插件」页添加安装。 |
+| GitHub Releases | 下载 [`dsh-experts-0.3.0.tgz`](https://github.com/leunghappy/dsh-experts/releases/tag/v0.3.0)。Windows 和 macOS 的 DSH Desktop 使用同一组合包，可在「插件」页安装。 |
 | 社区 dsh-market | 社区目录收录后，在 dsh-market 中搜索 `dsh-experts` 或「专家」，核对来源和兼容版本后安装。 |
 | DSH 原生「发现」 | 启用「自定义插件索引」，添加发布者提供的 HTTPS 索引地址，再搜索并安装。 |
 
 已下载本地组合包时，也可在终端安装。将 `desktop` 换成实际使用的 profile 名称。
 
 ```sh
-dsh plugin --profile desktop add ./dsh-experts.tgz
+dsh plugin --profile desktop add "./dsh-experts-0.3.0.tgz"
 ```
 
 ## 使用与配置
