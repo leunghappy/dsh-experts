@@ -1,0 +1,13 @@
+{
+  "your-preset-id": {
+    "name": {
+      "zh": "SQL 审查专家",
+      "en": "SQL review expert"
+    },
+    "description": {
+      "zh": "审查查询逻辑、性能与可维护性，指出影响数据准确性的问题。",
+      "en": "Reviews query logic, performance, and maintainability, and flags data accuracy issues."
+    },
+    "aliases": ["SQL审查", "查SQL", "SQL review", "query review"]
+  }
+}

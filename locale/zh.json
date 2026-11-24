@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "专家",
+    "description": "在 DeepSeek Harness 桌面端按分类管理专家，搜索并切换会话使用的专家，保留未发送的草稿。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

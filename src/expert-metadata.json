@@ -1,0 +1,9 @@
+{
+  "ads-modeling-expert": {
+    "description": {
+      "zh": "按场景解析、字段归集、模型设计、规范终审完成 ADS 反向建模。",
+      "en": "Reverse-engineers ADS models through scenario analysis, field inventory, model design, and standards review."
+    },
+    "aliases": ["数仓", "数仓建模", "ADS 建模", "data warehouse", "ADS modeling"]
+  }
+}

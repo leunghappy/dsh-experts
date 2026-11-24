@@ -1,0 +1,49 @@
+{
+  "name": "dsh-experts",
+  "version": "0.3.0",
+  "type": "module",
+  "description": "在 DeepSeek Harness 桌面端管理专家目录，并为会话选择合适的专家。",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "agent-preset",
+    "experts"
+  ],
+  "engines": {
+    "dsh": "0.2.2-rc.5"
+  },
+  "files": [
+    "dist/client.js",
+    "host.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs/",
+    "examples/",
+    "README.en.md",
+    "CHANGELOG.md"
+  ],
+  "exports": {
+    ".": "./host.js",
+    "./client": "./dist/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prepare": "npm run build",
+    "test": "node --test",
+    "market:index": "node scripts/market-index.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}
